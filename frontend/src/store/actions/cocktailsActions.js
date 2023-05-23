@@ -1,0 +1,27 @@
+import cocktailsSlice from "../slices/cocktailsSlice";
+
+export const {
+    createCocktailRequest,
+    createCocktailSuccess,
+    createCocktailFailure,
+    getCocktailsRequest,
+    getCocktailsSuccess,
+    getCocktailsFailure,
+    getUserCocktailsRequest,
+    getUserCocktailsSuccess,
+    getUserCocktailsFailure,
+    getIdCocktailRequest,
+    getIdCocktailSuccess,
+    getIdCocktailFailure,
+    setRateRequest,
+    setRateSuccess,
+    setRateFailure,
+    clearCocktailsRequest,
+    clearCocktailRequest,
+    publishCocktailRequest,
+    publishCocktailSuccess,
+    publishCocktailFailure,
+    deleteCocktailRequest,
+    deleteCocktailSuccess,
+    deleteCocktailFailure,
+} = cocktailsSlice.actions;
